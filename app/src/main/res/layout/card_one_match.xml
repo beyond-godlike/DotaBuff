@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.card.MaterialCardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/Widget.MaterialComponents.CardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mtrl_card_spacing"
+        android:layout_marginTop="@dimen/mtrl_card_spacing"
+        android:layout_marginRight="@dimen/mtrl_card_spacing"
+        android:elevation="1dp">
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="1"
+            android:orientation="horizontal"
+            android:id="@+id/gridLayout">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/heroIcon"
+            android:layout_rowSpan="1"
+            android:layout_margin="8dp"
+            android:padding="4dp"/>
+    <TextView
+            android:text="nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nickname"
+            android:layout_rowSpan="1"
+            android:padding="4dp"/>
+    <TextView
+            android:text="K"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kills"
+            android:layout_rowSpan="1"
+            android:padding="4dp"/>
+    <TextView
+            android:text="D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/deaths"
+            android:layout_rowSpan="1"
+            android:padding="4dp"/>
+    <TextView
+            android:text="A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/assists"
+            android:layout_rowSpan="1"
+            android:padding="4dp"/>
+    <TextView
+            android:text="net"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/networth"
+            android:layout_rowSpan="1"
+            android:padding="4dp"/>
+    <TextView
+            android:text="lh / dn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lhdn"
+            android:layout_rowSpan="1"
+            android:padding="4dp"/>
+    <TextView
+            android:text="gpm / xpm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gpmxpm"
+            android:layout_rowSpan="1"
+            android:padding="4dp"/>
+    <TextView
+            android:text="dmg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dmg"
+            android:layout_rowSpan="1"
+            android:padding="4dp"/>
+    <TextView
+            android:text="heal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/heal"
+            android:layout_rowSpan="1"
+            android:padding="4dp"/>
+    <TextView
+            android:text="bld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bld"
+            android:layout_rowSpan="1"
+            android:padding="4dp"/>
+    <TextView
+            android:text="wards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wards"
+            android:layout_rowSpan="1"
+            android:padding="4dp" android:visibility="invisible"/>
+</GridLayout>
+</android.support.design.card.MaterialCardView>
